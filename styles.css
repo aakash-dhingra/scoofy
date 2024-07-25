@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-image{
+    height: 75px;
+    width: 180px;
+}
+.hero {
+    background: url('./utils/hero1.jpeg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+}
+
+.hero-content .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
